@@ -6,18 +6,21 @@
 
   <body>
     <header>
-      <ul>
-        <li>
-          <a href="<?php echo base_url();?>">Home</a>
-        </li>
-        <li>
-          <a href="<?php echo base_url();?>index.php/pages/view/form">Form</a>
-        </li>
-        <li>
-          <a href="<?php echo base_url();?>index.php/pages/view/table">Table</a>
-        </li>
-        <li>
-          <a href="<?php echo base_url();?>index.php/pages/view/notes">Notes</a>
-        </li>
-      </ul>
+      
     </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="<?php echo base_url();?>">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo base_url();?>index.php/pages/view/form">Form</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo base_url();?>index.php/pages/view/table">Table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo base_url();?>index.php/pages/view/notes">Notes</a>
+        </li>
+    </nav>
